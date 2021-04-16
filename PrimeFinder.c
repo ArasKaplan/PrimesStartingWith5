@@ -9,7 +9,7 @@ int main(){
 	int i,j;
 	int broken=0;
 	for(i=501;i<=599;i+=2){
-		for(j=3;j<=sqrt(i);j+=2){
+		for(j=3;j<sqrt(i);j+=2){
 			if(i%j==0){
 				broken=1;
 				break;
